@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aayu Calculator</title>
-    <link rel="icon" href="/Calculator-icon.png">
-    <link rel="stylesheet" href="/Calculator.css">
+    <title>Calculator by JAYESH</title>
+        
 </head>
 <body>
    
- <table  align="center" cellspacing="8px" > 
+ <table border="1" align="center" cellspacing="20px" cellpadding="20px" > 
 <!-- <tr>
     <td onclick="toggleCalculator()">On/Off</td>
 </tr> -->
@@ -17,21 +16,20 @@
                 <td id="display" colspan="4"></td>
             </tr>
             <tr>
-                <td onclick="del()" colspan="2" id="eq">Delete</td>
-                <td onclick="ac()" id="blue">AC</td>
-                <td onclick="sq()" id="blue">Sq.</td>
+                <td onclick="del()" colspan="2" align="center" id="eq">Delete</td>
+                <td onclick="ac()" colspan="2" align="center" id="blue">AC</td>
             </tr>
             <tr>
-                <td onclick="cube()" id="blue">Cube</td>
                 <td onclick="press('-')" id="blue">-</td>
+                <td onclick="press('+')" id="blue">+</td>
+                <td onclick="press('*')" id="blue">*</td>
                 <td onclick="press('/')" id="blue">/</td>
-                <td onclick="press('%')" id="blue">%</td>
             </tr>
             <tr>
                 <td onclick="press('7')">7</td>
                 <td onclick="press('8')">8</td>
                 <td onclick="press('9')">9</td>
-                <td onclick="press('')" id="blue"></td>
+                <td onclick="press('%')" id="blue">%</td>
 
             </tr>
             <tr>
@@ -52,12 +50,7 @@
                 <td onclick="press('00')">00</td>
                 <td onclick="press('.')">.</td>
             </tr>
-            <!-- <tr >
-                <td id="ft"></td>
-                <td id="ft"></td>
-                <td colspan="2" id="ft"><p>Designed By Aayu G.</p></td>
-            </tr> -->
-        
+            
 
     </table>
 
